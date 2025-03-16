@@ -1,0 +1,262 @@
+$begin 'soln'
+	ObjectType='Terminal'
+	SolutionType='None'
+	MajorVersion=2
+	MinorVersion=0
+	Producer=''
+	Name='Adaptive_1 '
+	AdaptivePass=1
+	AllowMixedMode=false
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=5500000000
+			DataType='None'
+			$begin 'SMatrix'
+				$begin 'FullMatrix'
+					m=4
+					n=4
+					$begin 'r0'
+						c(-0.5068190251470223, 0.002601789603763754)
+						c(0.4691622591424148, -0.003592638522152592)
+						c(0.5124179564224522, -0.002111739055877514)
+						c(0.4988236775497426, -0.003490895417407136)
+					$end 'r0'
+					$begin 'r1'
+						c(0.4691622591424147, -0.003592638522152156)
+						c(-0.5426525041281834, 0.00179222397522587)
+						c(0.4910094806774832, -0.004765501950123763)
+						c(0.4833407776231712, -0.0006937800821322714)
+					$end 'r1'
+					$begin 'r2'
+						c(0.5124179564224511, -0.002111739055878626)
+						c(0.4910094806774825, -0.004765501950125273)
+						c(-0.4552889678326537, 0.00516946687971322)
+						c(0.52213629700231, -0.004642910905212733)
+					$end 'r2'
+					$begin 'r3'
+						c(0.4988236775497432, -0.003490895417406407)
+						c(0.483340777623172, -0.000693780082132061)
+						c(0.5221362970023117, -0.004642910905210854)
+						c(-0.4831463462479275, 0.00257727996283861)
+					$end 'r3'
+				$end 'FullMatrix'
+			$end 'SMatrix'
+			EnergyError=807.1077440439784
+			IeEnergyError=0
+			$begin 'PortImpedance'
+				MatrixSize=4
+				NumberOfBlocks=2
+				Block0_Size=1
+				$begin 'Block0'
+					$begin 'FullMatrix'
+						m=1
+						n=1
+						$begin 'r0'
+							c(508.1083368573667, -503.6374185343273)
+						$end 'r0'
+					$end 'FullMatrix'
+				$end 'Block0'
+				Block1_Size=3
+				$begin 'Block1'
+					$begin 'FullMatrix'
+						m=3
+						n=3
+						$begin 'r0'
+							c(501.4157774840702, -496.9472606057777)
+							c(7.555543826337966, -7.188709985886036)
+							c(35.06566261647328, -33.99866273563497)
+						$end 'r0'
+						$begin 'r1'
+							c(7.555543826337966, -7.188709985886036)
+							c(453.6923786512433, -450.8462969782872)
+							c(0.8988848168344346, -0.813825772613179)
+						$end 'r1'
+						$begin 'r2'
+							c(35.06566261647328, -33.99866273563497)
+							c(0.8988848168344346, -0.813825772613179)
+							c(451.5150555303173, -448.6079402491943)
+						$end 'r2'
+					$end 'FullMatrix'
+				$end 'Block1'
+			$end 'PortImpedance'
+			$begin 'Gamma'
+				MatrixSize=4
+				NumberOfBlocks=2
+				Block0_Size=1
+				$begin 'Block0'
+					$begin 'FullMatrix'
+						m=1
+						n=1
+						$begin 'r0'
+							c(2024.633289590375, 2042.605333966068)
+						$end 'r0'
+					$end 'FullMatrix'
+				$end 'Block0'
+				Block1_Size=3
+				$begin 'Block1'
+					$begin 'FullMatrix'
+						m=3
+						n=3
+						$begin 'r0'
+							c(2063.351741181643, 2081.348881266243)
+							c(-33.67386654886001, -32.52671345687342)
+							c(-159.6370346608537, -157.1371659279045)
+						$end 'r0'
+						$begin 'r1'
+							c(-33.67386654885981, -32.5267134568725)
+							c(2267.082206523867, 2281.34700103609)
+							c(-1.76898357263954, -1.542425868519124)
+						$end 'r1'
+						$begin 'r2'
+							c(-159.6370346608564, -157.1371659279009)
+							c(-1.768983572639803, -1.542425868519156)
+							c(2289.851658542217, 2304.119485045173)
+						$end 'r2'
+					$end 'FullMatrix'
+				$end 'Block1'
+			$end 'Gamma'
+			$begin 'ExtraHfssData'
+				$begin 'Zpi'
+					n=4
+					$begin 'r0'
+						c(522.8195013256943, -517.457560556692)
+						c(259.7870998411879, -256.1053270671663)
+						c(1329.717374995703, -1315.039576427639)
+						c(828.5216082987263, -822.4135221922297)
+					$end 'r0'
+				$end 'Zpi'
+				$begin 'Zwave'
+					n=4
+					$begin 'r0'
+						c(1668.911014195988, -1654.226969429576)
+						c(1631.679283042603, -1615.803809840852)
+						c(1865.044567972551, -1853.484476847078)
+						c(1950.39868327001, -1939.81716935848)
+					$end 'r0'
+				$end 'Zwave'
+				$begin 'TerminalTMatrix'
+					m=4
+					n=4
+					$begin 'r0'
+						c(34.97895948236834, -14.39829617539633)
+						c(0, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(34.72414000918073, -14.29287827801662)
+						c(0.2647775414821414, -0.1026369477700464)
+						c(1.239507157551775, -0.4938883840444448)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0.2647775414821414, -0.1026369477700464)
+						c(33.06403150140407, -13.63472150985036)
+						c(0.02699016106928757, -0.009614800992812672)
+					$end 'r2'
+					$begin 'r3'
+						c(0, 0)
+						c(1.239507157551775, -0.4938883840444448)
+						c(0.02699016106928757, -0.009614800992812672)
+						c(32.96156242736345, -13.59145227245669)
+					$end 'r3'
+				$end 'TerminalTMatrix'
+				$begin 'TerminalPMatrix'
+					m=4
+					n=4
+					$begin 'r0'
+						c(1.420448731066705, -1.407950776351682)
+						c(0, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(1.420438899431843, -1.407959509882172)
+						c(0.0004510203361452053, 0.0004545298963481437)
+						c(0.001194835812424633, 0.001203962868274955)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0.0004618614644217173, 0.0004654579330691799)
+						c(1.418648409214689, -1.409764604048798)
+						c(0.0001007172758079322, 0.0001017516834228016)
+					$end 'r2'
+					$begin 'r3'
+						c(0, 0)
+						c(0.001193047871686614, 0.001202160361250981)
+						c(9.369588358526526e-05, 9.467674022556327e-05)
+						c(1.418680950282318, -1.409730988770865)
+					$end 'r3'
+				$end 'TerminalPMatrix'
+				$begin 'TerminalRMatrix'
+					m=4
+					n=4
+					$begin 'r0'
+						c(0.9999999999999993, 2.109423746787794e-15)
+						c(0, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(0.8851770808719991, 2.817491129568153e-05)
+						c(-0.03251666661540095, 0.0005389521216058923)
+						c(-0.4641168962767979, 1.597627523274107e-05)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0.1047526500132659, -0.001001394569836048)
+						c(0.9858711606567313, 0.0002083352357842876)
+						c(0.1307156231460546, -0.000768790779515877)
+					$end 'r2'
+					$begin 'r3'
+						c(0, 0)
+						c(0.4533094445433815, 0.0001763893299168649)
+						c(-0.1643239541837692, 0.001143270773795661)
+						c(0.8760762175300348, 0.0001231717320141882)
+					$end 'r3'
+				$end 'TerminalRMatrix'
+				$begin 'ModalGamma'
+					n=4
+					$begin 'r0'
+						c(2024.633289590375, 2042.605333966068)
+						c(1977.606601428604, 1997.03688988259)
+						c(2268.507559873108, 2282.65614759242)
+						c(2374.171444946016, 2387.122329872497)
+					$end 'r0'
+				$end 'ModalGamma'
+			$end 'ExtraHfssData'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='1', TerminalEntryName='1', PortName='1', Mode=0, ModeName='', TerminalName='stripline1_T1', ParameterName='stripline1_T1', MatrixIndex=0, PortType=0, IsPassive=true, PreferredImpedance=524288)
+		Port(ModalEntryName='2:1', TerminalEntryName='2', PortName='2', Mode=0, ModeName='', TerminalName='stripline1_T3', ParameterName='stripline1_T3', MatrixIndex=1, PortType=0, IsPassive=true, PreferredImpedance=524288)
+		Port(ModalEntryName='2:2', TerminalEntryName='2', PortName='2', Mode=1, ModeName='', TerminalName='stripline1_T2', ParameterName='stripline1_T2', MatrixIndex=2, PortType=0, IsPassive=true, PreferredImpedance=524288)
+		Port(ModalEntryName='2:3', TerminalEntryName='2', PortName='2', Mode=2, ModeName='', TerminalName='stripline1_T4', ParameterName='stripline1_T4', MatrixIndex=3, PortType=0, IsPassive=false, PreferredImpedance=524288)
+	$end 'Ports'
+	$begin 'OtherStateSpaceModels'
+	$end 'OtherStateSpaceModels'
+	MultiTerminal=true
+	PortNames('1', '2')
+	PortModes(1, 3)
+	PortTerminals('stripline1_T1', 'stripline1_T3', 'stripline1_T2', 'stripline1_T4')
+	$begin 'Postprocessing'
+		NumPorts=2
+		MatrixSize=4
+		IsModal=false
+		DoRenorm=false
+		DoDeembed=false
+		UseZpiOnly=true
+		LosslessDeembed=true
+		ImpedMultiplier=1
+		Modes(1, 3)
+		DoPortRenorm(false, false, false, false)
+		PortCharImpeds('Zpi', 'Zpi', 'Zpi', 'Zpi')
+		FoundFreqDependentRenorm=false
+	$end 'Postprocessing'
+	ModalData=true
+	PreferredImpedance='Zpi'
+	IeEnergyError=0
+$end 'soln'

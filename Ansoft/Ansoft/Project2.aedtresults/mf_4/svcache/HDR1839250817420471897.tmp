@@ -1,0 +1,108 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=10
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='V(aeyeprobe10.out)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='V(net_1)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='V(aeyeprobe11.out)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='V(net_2)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=4
+		$begin 'SimValueParams'
+			QuantityName='V(aeyeprobe9.out)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=5
+		$begin 'SimValueParams'
+			QuantityName='V(net_4)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=6
+		$begin 'SimValueParams'
+			QuantityName='V(AEYEPROBE(eyeTerminal2).out)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=7
+		$begin 'SimValueParams'
+			QuantityName='V(AEYEPROBE(eyeTerminal3).out)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=8
+		$begin 'SimValueParams'
+			QuantityName='V(AEYEPROBE(eyeTerminal4).out)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=9
+		$begin 'SimValueParams'
+			QuantityName='V(net_3)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=4
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=61
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=1879048193
+						SimValueContext(1, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'DE', false, '0', 'DP', false, '500000000', 'DT', false, '0.001', 'NUMLEVELS', false, '0', 'WE', false, '100ns', 'WM', false, '100ns', 'WN', false, '0ps', 'WS', false, '0ps')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=74
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min60C420836174211308221.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

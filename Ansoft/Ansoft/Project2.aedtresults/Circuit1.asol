@@ -1,0 +1,64 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000003, day=000000000016, hour=000000000013, min=000000000048, sec=000000000002)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001489, lin=000000000044, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock58'
+	VariationDataID=-1
+	File='DV26_S61_V74.cir'
+$end 'SolutionBlock58'
+$begin 'SolutionBlock57'
+	SimSetupID=62
+	SimSetupName='NexximTransient'
+	VersionID=74
+	DefaultSol=61
+$end 'SolutionBlock57'
+$begin 'SolutionBlock56'
+	SolutionName='NexximTransient'
+	SolutionID=61
+	V=74
+	$begin 'States'
+		F(VID=26, Ver=74)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock56'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=62, Instance=\'\', Solution=61, VersionID=74)'='SolutionBlock58'
+	'SolutionKey(SimSetup=62, Instance=\'SetupDefinition\', Solution=-1, VersionID=74)'='SolutionBlock57'
+	'SolutionKey(SimSetup=62, Instance=\'SolutionDefinition\', Solution=61, VersionID=74)'='SolutionBlock56'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=74
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=75
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=26)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock58(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=1240, lin=32, lvl=0)
+		BlockMapName(pos=872, lin=26, lvl=0)
+		SolutionBlock56(pos=587, lin=11, lvl=0)
+		SolutionBlock57(pos=463, lin=5, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1489, lin=44, lvl=0)
+	$end '$index$'
+$end '$index$'

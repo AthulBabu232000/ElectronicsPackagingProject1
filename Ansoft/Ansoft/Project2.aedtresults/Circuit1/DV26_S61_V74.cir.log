@@ -1,0 +1,29 @@
+(status): Nexxim version: 2023.1.0 WIN64, build time: Nov 20 2022, 22:36:29
+
+(status): Analyzing C:/Users/luhta/Documents/Mtech/SemesterII/packaging/Ansoft/Project2.aedtresults/Circuit1/temp/DV26_S61_V74.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         3
+eye_probe                                         3
+eye_source                                        1
+s_element                                         1
+(status): License checkout took 4.455 seconds.
+models:s_element(status): s3 - Trying state-space system file in local output directory instead.
+models:s_element(status): s3 - Change in options since state-space system 'C:/Users/luhta/Documents/Mtech/SemesterII/packaging/Ansoft/Project2.aedtresults/Circuit1/temp/sss_70ea6af7952ecd4f217c805eb99c3d91_4.sss' created
+models:s_element(warning): s3 - Data file: c:\users\luhta\onedrive\documents\ansoft\project2_hfssdesign1.s4p: No DC frequency is available, so transient result may be inaccurate.
+models:s_element(status): s3 - Fitting state-space system using FastFit.
+models:s_element(status): s3 - Wrote state-space system 'C:/Users/luhta/Documents/Mtech/SemesterII/packaging/Ansoft/Project2.aedtresults/Circuit1/temp/sss_70ea6af7952ecd4f217c805eb99c3d91_4.sss'.
+models:s_element(status): s3 - Final error: 0.00072853
+models:s_element(status): s3 - Fit is passive.
+models:s_element(status): s3 - Final model order: 0
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.001, timesteps=957, reltol=0.001, vntol=5e-05, maxstep=1.5e-10, failed_LTEs=32, newton_iters=2048, abstol=1e-09, failed_newtons=0, avg_newtons=2.1
+
+(status): TRAN cpu time = 0.047
+(info): Simulation succeeded. Total simulator time: 0:00:04
+(status): Start Time:  03/16/2025 11:36:30, End Time:  03/16/2025 11:36:35, Host ASBUPSILON, 
